@@ -1,0 +1,17 @@
+# Executables and build outputs
+hash_search
+heap_sort
+heap_step
+dataset_gen
+radix_sort
+radix_step
+*.o
+*.dSYM/
+
+# Large dataset files & archives
+*.zip
+dataset_*.csv
+!data/*.csv
+
+# OS files
+.DS_Store
